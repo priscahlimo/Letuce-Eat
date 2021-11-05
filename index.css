@@ -100,6 +100,7 @@ justify-content: left;
     justify-content: center;
     margin-top: 70px;  
     background-color: rgb(177, 189, 185); 
+    height: 60vh;
 }
 .Quality{
     border-style: none;
@@ -131,7 +132,15 @@ justify-content: left;
     direction: ltr;
     text-align: center;
     color: aliceblue;
-    margin: 50px;
-    
+    margin: 50px; 
+    margin-left: 40px;   
+}
+#reviews .reviews-one h1{
+    font-size: 53px;
+    margin-bottom: 40px;
+}
+#reviews .reviews-one p{
+    font-size: 30px;
+    font-style: italic;
     
 }
