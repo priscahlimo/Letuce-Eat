@@ -2,29 +2,42 @@ html{
     margin: auto;
     padding: 0px;
     height: 100%;
+    font-style: Roboto;
+    
    }
 header{
-
+    padding:60px;
+    background-color:black;
+    background-image: url(images/IP2/image2.png );
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 #navbar{
     display: flex;
     justify-content: space-between;
     
-    
+  
 }
 #navbar>.nav-links{
     display: flex;
     float: right;
+    margin-top: 10px;
+    background-color: rgb(51, 48, 48);
+    opacity: 0.5;
     }
 
 #navbar>.nav-links> ul> li{
     display: inline-block;
     list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
     text-align: right;
     position: relative;
-    justify-content: space-evenly;
-    padding: 10px 30px;
+    justify-content: space-between;
+    padding: 7px 35px;
+    
     
     } 
 .heading{
@@ -32,7 +45,7 @@ header{
 }
 .nav-links a{
     text-decoration: none;
-    color: blueviolet
+    color: white
 }
 .nav-links  button {
     padding: 8px 20px;
@@ -40,10 +53,55 @@ header{
     color: white;
     background-color: #F19201;
 }
-.heading h1 {
+
+.logo a {
+    text-decoration: none;
+}
+.school{
+    position: relative; bottom: 30px;
+    text-decoration: none;
+    color: #F19201;
+    font-weight: bold;
+    font-size: 20px;
     
 }
+.heading{
+    margin-left: 30px;
+    text-indent: 2opx;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.heading h1 {
+  font-size: 35px;  
+  color: white;
+}
 .heading button{
-    padding: 10px 35px;
-    text-decoration: transparent;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #F19201; 
+}
+.services{
+    text-align: center;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;  
+    background-color: rgb(177, 189, 185); 
+}
+.Quality{
+    border-style: none;
+    margin: 20px;
+    height: 250px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: whitesmoke;
+}
+.Quality button{
+    padding: 20px;
+    border-radius: 100%;
+     background-color: #F19201;
+     border: transparent;
 }
