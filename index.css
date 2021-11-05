@@ -122,7 +122,6 @@ justify-content: left;
 }
 #reviews{
     display: flex;
-    /* padding:60px; */
     background-color:black;
 }
 .image-one{
@@ -142,7 +141,8 @@ justify-content: left;
 #reviews .reviews-one p{
     font-size: 30px;
     font-style: italic;
-    }
+    margin-bottom: 0px;
+}
 #menu{
 
     background-color: rgb(177, 189, 185);
