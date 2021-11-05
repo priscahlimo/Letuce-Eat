@@ -148,7 +148,21 @@ justify-content: left;
     background-color: rgb(177, 189, 185);
     
 }
-#menu
+#menu .unique{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.unique h1{
+    color: #F19201;
+    font-size: 30px;
+    padding: 30px;
+}
+.unique p{
+    text-align: center;
+    margin: 0px 340px 0px 440px;
+    font-size: 20px;
+    font-style: italic;
+}
 #row-one{
     display: flex;
     justify-content: space-around;
