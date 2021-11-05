@@ -6,7 +6,7 @@ html{
     
    }
 header{
-    padding:60px;
+    height:60vh;
     background-color:black;
     background-image: url(images/IP2/image2.png );
     background-position: right;
@@ -40,9 +40,6 @@ header{
     
     
     } 
-.heading{
-    justify-content: center;
-}
 .nav-links a{
     text-decoration: none;
     color: white
@@ -66,11 +63,10 @@ header{
     
 }
 .heading{
-    margin-left: 30px;
-    text-indent: 2opx;
-    margin-top: 60px;
-    margin-bottom: 40px;
+margin-left: 40px;
+justify-content: left;
 }
+
 .heading h1 {
   font-size: 35px;  
   color: white;
@@ -80,6 +76,7 @@ header{
     text-decoration: none;
     color: white;
     background-color: #F19201; 
+    margin-bottom: 60px;
 }
 .services{
     text-align: center;
@@ -121,6 +118,20 @@ header{
 .Quality p{
     font-style: italic;
     margin: 67px;
+}
+#reviews{
+    display: flex;
+    /* padding:60px; */
+    background-color:black;
+}
+.image-one{
+ background-size: contain;
+}
+#reviews .reviews-one{
+    direction: ltr;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
     
     
 }
