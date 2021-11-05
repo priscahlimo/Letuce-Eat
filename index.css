@@ -142,5 +142,16 @@ justify-content: left;
 #reviews .reviews-one p{
     font-size: 30px;
     font-style: italic;
+    }
+#menu{
+display: flex;
+    }
+#menu .row-one{
+    display:inline-block;
+    justify-content: space-between;
     
 }
+#menu .row-two{
+ display: flex;
+}
+
