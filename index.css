@@ -68,8 +68,9 @@ justify-content: left;
 }
 
 .heading h1 {
-  font-size: 35px;  
+  font-size: 45px;  
   color: white;
+  font-style: Roboto;
 }
 .heading button{
     padding: 8px 20px;
@@ -123,6 +124,7 @@ justify-content: left;
 #reviews{
     display: flex;
     background-color:black;
+
 }
 .image-one{
  background-size: contain;
@@ -213,8 +215,9 @@ justify-content: left;
     background-image:url(./images/IP2/image8.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     text-align: center;
+    background-color: black;
 }
    
 .footer p{
@@ -236,6 +239,14 @@ justify-content: left;
     font-size: 26px;
     font-weight: bold;
     position: relative;top: 180px;
+}
+.end{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    font-size: 26px;
+    
 }
 
     
