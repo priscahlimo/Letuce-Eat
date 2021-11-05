@@ -144,14 +144,33 @@ justify-content: left;
     font-style: italic;
     }
 #menu{
-display: flex;
+
     }
-#menu .row-one{
-    display:inline-block;
+.row-one{
+    display:flex;
     justify-content: space-between;
+    float: right;
+    
     
 }
-#menu .row-two{
- display: flex;
+.row-one .contents{
+    direction: ltr;
+    text-align: center;
+    margin: 50px; 
+    margin-left: 40px;  
+    clear: left;
+}
+.row-two{
+     display: inline-block;
+     justify-content: space-between;
+    flex-direction: column;
+}
+.row-two .contents{
+    direction: ltr;
+    text-align: center;
+    margin: 50px; 
+    margin-left: 40px; 
+    float: right; 
+
 }
 
