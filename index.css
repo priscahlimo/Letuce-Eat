@@ -83,6 +83,19 @@ header{
 }
 .services{
     text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.services h1{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #F19201;
+}
+.services p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
 }
 #about{
     display: flex;
@@ -104,4 +117,10 @@ header{
     border-radius: 100%;
      background-color: #F19201;
      border: transparent;
+}
+.Quality p{
+    font-style: italic;
+    margin: 67px;
+    
+    
 }
