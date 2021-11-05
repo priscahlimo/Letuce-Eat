@@ -216,13 +216,28 @@ justify-content: left;
     height: 70vh;
     text-align: center;
 }
+   
 .footer p{
-    margin-bottom: 60px;
+    
    color: whitesmoke;
+   position: relative;top: 80px;
+   font-size: 26px;
+   font-style: italic;
 }
 .footer h2{
     color: whitesmoke;
+    position: relative;top: 120px;
+    font-size: 25px;
 }
+.footer button{
+    padding: 10px 49px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;top: 180px;
+}
+
     
 
 
