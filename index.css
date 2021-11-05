@@ -209,11 +209,19 @@ justify-content: left;
 .column-2 button{
     padding: 10px 29px; 
 }
-.footer{
+#leap{
     background-image:url(./images/IP2/image8.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 70vh;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 60px;
+   color: whitesmoke;
+}
+.footer h2{
+    color: whitesmoke;
 }
     
 
