@@ -209,12 +209,12 @@ justify-content: left;
 .column-2 button{
     padding: 10px 29px; 
 }
-#chepko{
-    height: 40px;
-    width: 40px;
+.footer{
+    background-image:url(./images/IP2/image8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
-}
-.column-1 image{
     
 
 
