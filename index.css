@@ -3,7 +3,7 @@ html{
     padding: 0px;
     height: 100%;
     font-style: Roboto;
-    
+    background-color: rgb(194, 191, 191);
    }
 header{
     height:60vh;
@@ -42,8 +42,8 @@ header{
     text-decoration: none;
     color: white
 }
- #{
-    color:#F19201
+.active{
+    color: #F19201;
 }
 .nav-links  button {
     padding: 8px 20px;
@@ -83,8 +83,13 @@ justify-content: left;
 .services{
     text-align: center;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.describe{
+    justify-content: center;
 }
 .services h1{
     font-weight: bolder;
@@ -100,9 +105,6 @@ justify-content: left;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;  
-    background-color: rgb(177, 189, 185); 
-    height: 60vh;
 }
 .Quality{
     border-style: none;
@@ -150,10 +152,9 @@ justify-content: left;
     margin-bottom: 0px;
 }
 #menu{
-
-    background-color: rgb(177, 189, 185);
-    
+    padding: 20px;
 }
+
 #menu .unique{
     text-align: center;
     margin-bottom: 50px;
@@ -171,86 +172,85 @@ justify-content: left;
 }
 #row-one{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 16px;
     
 }
 #row-two{
     display: flex;
-    justify-content: space-around;
-    margin: 16px;
-    
+    justify-content: space-evenly;
+    margin: 20px;
 }
 .column-1{
     border-style: none;
     display: flex;
-    margin: 16px 36px;
+    padding: 20px;
+    justify-content: space-around;
     background-color: whitesmoke;
 }
 .column-2{
     border-style: none;
     display: flex;
-    margin: 16px;
+    padding: 20px;
     background-color: whitesmoke;
 }
-.column-1 p{
-     font-style: italic;
-     margin-top: 30px;
+
+.image{
+    height: 200px;
+
 }
-.column-2 p{
-    font-style: italic;
-    margin-top: 30px;
+.image img{
+    height: 100%;
+    width: 90%;
+
 }
+
 .shilling{
   color: #F19201;
   font-weight: bold;
-  margin-top: 20px;
 }
-.column-1 h1{
-    margin-top: 40px;
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.column-1 button{
-    padding: 10px 29px;
+.info p{
+    font-style: italic;
+    font-size: 20px;
 }
-.column-2 button{
-    padding: 10px 29px; 
+.info button{
+    padding: 10px;
+    background-color: rgb(194, 191, 191);
+    border: none;
 }
+
 #leap{
     background-image:url(./images/IP2/image8.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 60vh;
-    text-align: center;
-    background-color: black;
-}
-   
-.footer p{
-    
-   color: whitesmoke;
-   position: relative;top: 80px;
-   font-size: 26px;
-   font-style: italic;
-}
-.footer h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: whitesmoke;
-    position: relative;top: 120px;
     font-size: 25px;
 }
-.footer button{
+
+#leap button{
     padding: 10px 49px;
     background-color: transparent;
     color: whitesmoke;
-    font-size: 26px;
-    font-weight: bold;
-    position: relative;top: 180px;
+    border: whitesmoke solid;
 }
+
 .end{
     text-align: center;
     color: whitesmoke;
     background-color: black;
     padding: 20px;
     font-size: 26px;
-    
 }
 
     
