@@ -6,28 +6,31 @@ html{
     background-color: rgb(194, 191, 191);
    }
 header{
-    height:60vh;
-    background-color:black;
-    background-image: url(images/IP2/image2.png );
+    height:60vh; 
+    
+    background-image: url(images/IP2/image2.png);
     background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;} 
 
-}
+
 #navbar{
     display: flex;
     justify-content: space-between;
+    margin-right: 15px;
     
   
 }
 #navbar>.nav-links{
     display: flex;
     float: right;
-    margin-top: 10px;
-    background-color: rgb(51, 48, 48);
-    opacity: 0.5;
+    
+    
+    /* opacity: 0.5; */
     }
-
+.nav-links{
+    background-color: rgba(0, 0, 0, .4);
+}
 #navbar>.nav-links> ul> li{
     display: inline-block;
     list-style: none;
@@ -63,10 +66,12 @@ header{
     font-size: 20px;
     
 }
+
+
 .heading{
 margin-left: 40px;
 justify-content: left;
-}
+} 
 
 .heading h1 {
   font-size: 45px;  
